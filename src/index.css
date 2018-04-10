@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+    min-height: 100%;width: auto;height: auto;
+    font-family: sans-serif;
+}
+#root {
+      margin: 0;
+      padding: 0;
+      min-width: 100%;
+      min-height: 100%;width: auto;height: inherit !important;
+      font-family: sans-serif;
+  }
+.fullHeight{    min-width: 100%;
+    min-height: inherit;width: auto;height: 100% !important;}
+video {
+    position: fixed;
+    z-index: -999;
+    left:0px;
+    bottom: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    width: auto;
+}
+
+source {
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    width: auto;
+}
